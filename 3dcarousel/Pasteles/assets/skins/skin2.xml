@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<groups>
+		<group snapToCell="true" gridPosition="BC" cellPosition="CC" orientation="horizontal" paddingV="20" paddingH="0">
+			<backgroundButton backColor="0x000000" backAlpha=".7" cornerRadius="0" width="180" height="12"/>
+		</group>
+		
+		<group snapToCell="true" gridPosition="BC" cellPosition="CC" orientation="horizontal" spacing="0" paddingV="20" paddingH="0">
+			<scrubBar back="assets/skins/skin2/scrubBack.png"  position="assets/skins/skin2/position.png" dragOut="assets/skins/skin2/pointer.png" dif="1" width="174" orientation="horizontal" />							
+		</group>
+	</groups>
+</data>

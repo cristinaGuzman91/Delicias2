@@ -1,0 +1,102 @@
+<settings>
+  <General_Properties>
+    <componentWidth value="800"/>
+    <componentHeight value="480"/>
+    <position value="horizontal"/>
+    <offset value="0"/>
+    <center value="true"/>
+    <preloader value="assets/preloaders/redsquares.swf"/>
+    <useColorbox value="false"/>
+    <assets value="images.xml"/>
+    <showAbout value="true"/>
+  </General_Properties>
+  <Colorbox_Properties>
+    <transition value="elastic"/>
+    <innerWidth value="900"/>
+    <innerHeight value="500"/>
+    <slideshow value="false"/>
+    <slideshowSpeed value="2500"/>
+  </Colorbox_Properties>
+  <Pictures_Properties>
+    <picWidth value="150"/>
+    <picHeight value="200"/>
+    <picDistance value="10"/>
+    <picBorderWidth value="5"/>
+    <picBorderAlpha value="0.8"/>
+    <picCornerRadius value="28.9"/>
+    <rotationOffset value="7"/>
+    <picBorderColor value="0x000000"/>
+  </Pictures_Properties>
+  <Expand>
+    <expandPercent value="50"/>
+    <func value="Back"/>
+    <method value="easeOut"/>
+    <duration value="0.4"/>
+  </Expand>
+  <Roll_Over_Properties>
+    <rollOverBehaviour value="alpha2"/>
+    <brightnessOver value="50"/>
+    <brightnessOut value="100"/>
+    <brightnessSpeed value="7"/>
+  </Roll_Over_Properties>
+  <Drag_Properties>
+    <skin value="assets/skins/skin3.xml"/>
+    <dragEase value="5"/>
+    <dragBlur value="10"/>
+  </Drag_Properties>
+  <Tooltip_Properties>
+    <position value="bottom"/>
+    <delay value="0.3"/>
+    <distance value="3"/>
+    <padding value="0"/>
+    <cornerRadius value="2"/>
+    <appearance value="center"/>
+    <easingFunction value="Back"/>
+    <easingDuration value="0.3"/>
+    <fontFace value="verdana"/>
+    <fontSize value="10"/>
+    <fontColor value="0xffffff"/>
+    <backColor value="0x000000"/>
+    <backColor2 value="0x151515"/>
+    <backAlpha value="16777215"/>
+    <borderColor value="11184810"/>
+    <borderThickness value="1"/>
+    <useArrow value="true"/>
+    <arrowPos value="center"/>
+    <arrowSize value="5"/>
+    <embedFonts value="true"/>
+  </Tooltip_Properties>
+  <Background_Properties>
+    <fillType value="image"/>
+   <!-- <backgroundImage value="assets/backgroundImages/wood.png"/> -->
+    <backgroundFitting value="repeat"/>
+    <backgroundColor1 value="0x000000"/>
+    <backgroundColor2 value="0xff0000"/>
+    <backgroundAlpha value="1"/>
+    <bgCornerRadius value="0"/>
+    <gradientRotation value="30"/>
+    <gradientRatio value="40"/>
+    <gradientPosX value="0"/>
+    <gradientPosY value="0"/>
+    <useShade value="false"/>
+    <shadeColor value="0x000000"/>
+    <shadeAlpha value="0.7"/>
+    <shadeRatio value="183"/>
+    <shadeWidth value="207"/>
+    <shadeHeight value="18"/>
+  </Background_Properties>
+  <Shade_Properties>
+    <useShade value="false"/>
+    <shadeColor value="0x990000"/>
+    <shadeAlpha value="1"/>
+    <shadeRatio value="40"/>
+    <shadeWidth value="0"/>
+    <shadeHeight value="0"/>
+  </Shade_Properties>
+  <Reflection_Properties>
+    <useReflection value="true"/>
+    <reflectionDistance value="0"/>
+    <reflectionAlpha value="0.4"/>
+    <reflectionSpread value="120.2"/>
+  </Reflection_Properties>
+</settings>

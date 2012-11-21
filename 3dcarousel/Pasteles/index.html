@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>PhotoDraggerFX</title>
+	<style type="text/css">
+		html, body, #DivDockGalleryFX {margin: 1; padding: 0; height: 99%; }
+	</style>
+</head>
+<body bgcolor=#4C3119> <center>
+	<div id="DivPhotoDraggerFX"></div>
+	<script type="text/javascript" src="swfobject.js"></script>
+	<script type="text/javascript">
+		var flashvars = {};
+		var params = {};
+		params.base = "";
+		params.scale = "noscale";
+		params.salign = "tl";
+		params.wmode = "transparent";
+		params.allowFullScreen = "true";
+		params.allowScriptAccess = "always";
+		swfobject.embedSWF("PhotoDraggerFX.swf", "DivPhotoDraggerFX", "800", "480", "9.0.0", false, flashvars, params);
+	</script></center>
+</body>
+</html>

@@ -1,0 +1,19 @@
+﻿<images>
+	<photo image="images/101.jpg" colorboxImage="images/101.jpg" colorboxInfo="Item 01" colorboxClass="image" url = "Bodas/index.html" 
+	target="NewPage"> <![CDATA[<head>Bodas</head>]]></photo>
+		
+	<photo image="images/102.jpg" colorboxImage="images/102.jpg" colorboxInfo="Item 02" colorboxClass="image" url = "Caseros/index.html" 
+	target="NewPage"> <![CDATA[<head>Caseros</head>]]></photo>
+	
+	<photo image="images/103.jpg" colorboxImage="images/103.jpg" colorboxInfo="Item 03" colorboxClass="image" url = "Frutales/index.html" 
+	target="NewPage"> <![CDATA[<head>Futales</head>]]></photo>
+	
+	<photo image="images/104.jpg" colorboxImage="images/104.jpg" colorboxInfo="Item 04" colorboxClass="image" url = "Infantil/index.html" 
+	target="NewPage"> <![CDATA[<head>Infantiles</head>]]></photo>
+	
+	<photo image="images/105.jpg" colorboxImage="images/105.jpg" colorboxInfo="Item 05" colorboxClass="image" url = "Oc.Especial/index.html" 
+	target="NewPage"> <![CDATA[<head>Ocasion especial</head>]]></photo>
+
+	<photo image="images/106.jpg" colorboxImage="images/106.jpg" colorboxInfo="Item 06" colorboxClass="image" url = "XVaños/index.html" 
+	target="NewPage"> <![CDATA[<head>XV años</head>]]></photo>
+</images>

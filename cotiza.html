@@ -1,0 +1,35 @@
+<html>
+
+<body bgcolor=#4C3119>
+<form method="post" action="InsertarServ.php">
+
+<fieldset>
+<legend> <b><i><font color="008000"><h2>Cotiza tu Producto</h2></font></legend><br/>
+<label for="email"><font color="FFF9C5">Correo electronico</label>:<br/><input id="email" type="text" name="email"/><br/><br/>
+<label for="Pro">Producto</label>:</i></b><br>
+						<input type="checkbox" name="Pro1[]" value="Pastel"/>Pastel
+						<input  type="checkbox" name="Pro1[]" value="Cup Cake"/>CupCake
+						<input  type="checkbox" name="Pro1[]" value="Pay"/>Pay
+						<input  type="checkbox" name="Pro1[]" value="Bocadillos"/>Bocadillos
+						<input  type="checkbox" name="Pro1[]" value="Panaderia"/>Panaderia<br/><br/>
+<label for="modelo"><font color="FFF9C5">Modelo</label>:<br/><input id="modelo" type="text" name="modelo"/><br/><br/>	
+<label for="cantidad">Cantidad</label>:<select name="cantidad">
+                                <option>--1--</option>
+                                <option>--2--</option>
+                                <option>--3--</option>
+								<option>--4--</option>
+								<option>--5--</option>
+								<option>--6--</option>
+								<option>--7--</option>
+								<option>--8--</option>
+								<option>--9--</option>
+								<option>--10--</option>
+                            </select><br/><br/>									
+<label for="cantPer">Cantidad de personas</label>:<br/><input id="cantPer" type="text" name="cantPer"/><br/><br/>
+<label for="Informacion">Informacion adicional</label>:<br/></i></b><textarea id="Informacion" type="textarea" 
+			cols="50" rows="5"name="Informacion"/></textarea><br/><br/>
+<button type="submit" style="background:green"><b>Hacer cotizacion</b></button>
+</fieldset>
+</form>
+<body/>
+</html>

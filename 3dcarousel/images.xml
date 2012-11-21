@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Carousel>
+	<photo url="Pasteles/index.html" target="NewPage" image="images/101.jpg" colorboxImage="images/101.jpg" colorboxInfo="Item 01"
+		colorboxClass="image"><![CDATA[<head>Mira nuestra gran<br>variedad en Pasteles</head>]]></photo>
+	<photo url="Cupcakes/index.html" target="NewPage" image="images/102.jpg" colorboxImage="images/102.jpg" colorboxInfo="Item 02" 
+		colorboxClass="image"><![CDATA[<head>Hechale un ojo a nuestros<br>deliciosos CupCakes</head>]]></photo>
+	<photo url="Bocadillos/index.html" target="NewPage" image="images/103.jpg" colorboxImage="images/103.jpg" colorboxInfo="Item 03" 
+		colorboxClass="image"><![CDATA[<head>Da click y deleitate<br>con nuestros Bocadillos</head>]]></photo>
+	<photo url="Pays/index.html" target="NewPage" image="images/104.jpg" colorboxImage="images/104.jpg" colorboxInfo="Item 04" 
+		colorboxClass="image"><![CDATA[<head>Accesa nuestra galeria<br>de Pay´s</head>]]></photo>
+	<photo url="Panaderia/index.html" target="NewPage" image="images/105.jpg" colorboxImage="images/105.jpg" colorboxInfo="Item 05" 
+		colorboxClass="image"><![CDATA[<head>Click para ver nuestros productos<br>de Panaderia</head>]]></photo>
+</Carousel>

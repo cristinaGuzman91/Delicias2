@@ -1,0 +1,107 @@
+﻿<settings>
+  <General_Properties>
+    <assets value="images.xml"/>
+    <componentWidth value="600"/>
+    <componentHeight value="480"/>
+    <preloader value="assets/preloaders/comet.swf"/>
+    <skin value="assets/skins/skin1.xml"/>
+    <radiusX value="220"/>
+    <radiusY value="130"/>
+    <centerX value="300"/>
+    <centerY value="187"/>
+    <perspective value="50"/>
+    <rotationAngle value="0"/>
+    <rotatioAngleType value="all"/>
+    <useAlphaEffect value="true"/>
+    <alphaIntensity value="10"/>
+    <showCenterImage value="true"/>
+    <centerImageAlpha value="0.5"/>
+    <centerImage value="images/logo.png"/>
+    <!--<centerImageUrl value="http://www.flashxml.net"/> -->
+    <centerImageUrlTarget value="_blank"/>
+    <showAbout value="true"/>
+    <useColorbox value="false"/>
+  </General_Properties>
+  <Colorbox_Properties>
+    <transition value="elastic"/>
+    <innerWidth value="900"/>
+    <innerHeight value="500"/>
+    <slideshow value="false"/>
+    <slideshowSpeed value="2500"/>
+  </Colorbox_Properties>
+  <Rotation_Properties>
+    <rotateOnRollOver value="buttons"/>
+    <rollOutSpeed value="5"/>
+    <rollOverSpeed value="30"/>
+    <inverseRotation value="false"/>
+  </Rotation_Properties>
+  <Thumbs_Properties>
+    <thumbWidth value="175"/>
+    <thumbHeight value="148"/>
+    <borderCornerRadius value="40"/>
+    <borderWidth value="2"/>
+    <borderAlpha value="1"/>
+    <borderColor value="0x000000"/>
+  </Thumbs_Properties>
+  <Reflection_Properties>
+    <useReflection value="true"/>
+    <reflectionAlpha value="0.6"/>
+    <reflectionSpread value="255"/>
+    <reflectionDistance value="2"/>
+  </Reflection_Properties>
+  <Roll_Over_Properties>
+    <effectOut value="0"/>
+    <effectOver value="50"/>
+    <effectRatio value="5"/>
+    <effectType value="smooth"/>
+  </Roll_Over_Properties>
+  <Tooltip_Properties>
+    <visibility value="mouseOver"/>
+    <position value="bottom"/>
+    <delay value="0.1"/>
+    <distance value="3"/>
+    <padding value="0"/>
+    <cornerRadius value="2"/>
+    <appearance value="top"/>
+    <easingFunction value="Back"/>
+    <easingDuration value="0.3"/>
+    <fontFace value="Verdana"/>
+    <fontSize value="12"/>
+    <fontColor value="0x000000"/>
+    <backColor value="0xffffff"/>
+    <backColor2 value="0xffffff"/>
+    <backAlpha value="1"/>
+    <borderColor value="0x999999"/>
+    <borderThickness value="1"/>
+    <useArrow value="true"/>
+    <arrowSize value="5"/>
+    <embedFonts value="true"/>
+  </Tooltip_Properties>
+  <Background_Properties>
+    <fillType value="image"/>
+  <!--  <backgroundImage value="assets/backgroundImages/grunge.jpg"/> -->
+    <backgroundFitting value="repeat"/>
+    <backgroundColor1 value="0xeeeeee"/>
+    <backgroundColor2 value="0x336699"/>
+    <backgroundAlpha value="0.2"/>
+    <bgCornerRadius value="0"/>
+    <gradientRotation value="27"/>
+    <gradientRatio value="10"/>
+    <gradientPosX value="-3"/>
+    <gradientPosY value="-56"/>
+    <useShade value="false"/>
+    <shadeColor value="0x000000"/>
+    <shadeAlpha value="1"/>
+    <shadeRatio value="0"/>
+    <shadeWidth value="0"/>
+    <shadeHeight value="0"/>
+  </Background_Properties>
+  <Shade_Properties>
+    <useShade value="false"/>
+    <shadeColor value="0x000000"/>
+    <shadeAlpha value="1"/>
+    <shadeRatio value="40"/>
+    <shadeWidth value="0"/>
+    <shadeHeight value="0"/>
+  </Shade_Properties>
+</settings>
