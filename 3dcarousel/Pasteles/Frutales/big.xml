@@ -1,58 +1,58 @@
 <images>
 	<photo image="images/big/101.jpg">
-	<![CDATA[<head>Hello</head><body>Welcome to the new Dock Gallery</body>]]></photo>
+	<![CDATA[<head>MOD:PF01  $200</head><body>Pastel de vainilla con fresas</body>]]></photo>
 	
 	<photo image="images/big/102.jpg">
-	<![CDATA[<head>Download the new Dock Gallery</head><br><body>For FREE</body>]]></photo>
+	<![CDATA[<head>MOD:PF02  $200</head><body>Pastel de manzana</body>]]></photo>
 	
 	<photo image="images/big/103.jpg">
-	<![CDATA[<head>Insert it in your website for free</head><br><body>without any special skills or software</body>]]></photo>
+	<![CDATA[<head>MOD:PF03  $220</head><body>Pastel de queso y arandanos</body>]]></photo>
 	
 	<photo image="images/big/104.jpg">
-	<![CDATA[<head>Extensive customization options</head><body>for both Dock Menu and Gallery</body>]]></photo>
+	<![CDATA[<head>MOD:PF04  $220</head><body>Pastel de fresas con crema</body>]]></photo>
 	
 	<photo image="images/big/105.jpg">
-	<![CDATA[<head>Make your modifications in the right panel</head><body>Then hit the "generate settings XMLs" button</body>]]></photo>
+	<![CDATA[<head>MOD:PF05  $100</head><body>Minipastel de queso y zarzamoras</body>]]></photo>
 	
 	<photo image="images/big/106.jpg">
-	<![CDATA[<head>Create your own image transitions and text effects</head><body>or select them from existing lists using transitions and text effects generators</body>]]></photo>
+	<![CDATA[<head>MOD:PF06  $200</head><body>Pastel de fresa y mango</body>]]></photo>
 	
 	<photo image="images/big/107.jpg">
-	<![CDATA[<head>You can choose the fitting type for your images in the gallery</head><body>select from bestFit, boxFit or forceFit</body>]]></photo>
+	<![CDATA[<head>MOD:PF07  $220</head><body>Pastel de frutos rojos</body>]]></photo>
 	
 	<photo image="images/big/108.jpg">
-	<![CDATA[<head>You can put the Dock Menu on any position over the Gallery</head><body>And you can have it hidden on mouse out or have it fixed</body>]]></photo>
+	<![CDATA[<head>MOD:PF08  $220</head><body>Pastel de frutas tropicales</body>]]></photo>
 	
 	<photo image="images/big/109.jpg">
-	<![CDATA[<head>Put your own images and text in the "images" folder</head><body>and update the XML files from the same folder accordingly</body>]]></photo>
+	<![CDATA[<head>MOD:PF09  $200</head><body>Pastel sabor mango</body>]]></photo>
 	
-	<photo image="images/big/110.jpg" url = "http://www.flashxml.net">
-	<![CDATA[<head>You can put <a href="http://www.flashxml.net" target="_blank">links</a> in this <bluetext>HTML/CSS formatted text</bluetext></head><body>and you can also put links behind the big images</body>]]></photo>
+	<photo image="images/big/110.jpg">
+	<![CDATA[<head>MOD:PF10  $230</head><body>Pastel sabor chocolate con fresas</body>]]></photo>
 	
 	<photo image="images/big/111.jpg">
-	<![CDATA[<head>Hello</head><body>Welcome to the new Dock Gallery</body>]]></photo>
+	<![CDATA[<head>MOD:PF11  $220</head><body>Pastel de cerezas con crema</body>]]></photo>
 	
 	<photo image="images/big/112.jpg">
-	<![CDATA[<head>Hello</head><body>Welcome to the new Dock Gallery</body>]]></photo>
+	<![CDATA[<head>MOD:PF12  $200</head><body>Pastel sabor durazno</body>]]></photo>
 	
 	<photo image="images/big/113.jpg">
-	<![CDATA[<head>Hello</head><body>Welcome to the new Dock Gallery</body>]]></photo>
+	<![CDATA[<head>MOD:PF13  $230</head><body>Pastel con un remolino de fresas</body>]]></photo>
 	
 	<photo image="images/big/114.jpg">
-	<![CDATA[<head>Hello</head><body>Welcome to the new Dock Gallery</body>]]></photo>
+	<![CDATA[<head>MOD:PF14  $230</head><body>Pastel con kiwi y frambuesas</body>]]></photo>
 	
 	<photo image="images/big/115.jpg">
-	<![CDATA[<head>Hello</head><body>Welcome to the new Dock Gallery</body>]]></photo>
+	<![CDATA[<head>MOD:PF15  $220</head><body>Pastel con gran variedad de frutas</body>]]></photo>
 	
 	<photo image="images/big/116.jpg">
-	<![CDATA[<head>Hello</head><body>Welcome to the new Dock Gallery</body>]]></photo>
+	<![CDATA[<head>MOD:PF16  $250</head><body>Pastel con fresas y chocolate</body>]]></photo>
 	
 	<photo image="images/big/117.jpg">
-	<![CDATA[<head>Hello</head><body>Welcome to the new Dock Gallery</body>]]></photo>
+	<![CDATA[<head>MOD:PF17  $240</head><body>Pastel dequeso y cerezas</body>]]></photo>
 	
 	<photo image="images/big/118.jpg">
-	<![CDATA[<head>Hello</head><body>Welcome to the new Dock Gallery</body>]]></photo>
+	<![CDATA[<head>MOD:PF18  $230</head><body>Pastel de cereza</body>]]></photo>
 	
 	<photo image="images/big/119.jpg">
-	<![CDATA[<head>Hello</head><body>Welcome to the new Dock Gallery</body>]]></photo>
+	<![CDATA[<head>MOD:PF19  $250</head><body>Pastel de chocolate y frutos rojos</body>]]></photo>
 </images>

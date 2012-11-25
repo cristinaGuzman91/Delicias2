@@ -1,50 +1,50 @@
 <images>
 	<photo image="images/big/101.jpg">
-	<![CDATA[<head>Hello</head><body>Welcome to the new Dock Gallery</body>]]></photo>
+	<![CDATA[<head>MOD:PC01  $200</head><body>Pastel de chocolate con fresas</body>]]></photo>
 	
 	<photo image="images/big/102.jpg">
-	<![CDATA[<head>Download the new Dock Gallery</head><br><body>For FREE</body>]]></photo>
+	<![CDATA[<head>MOD:PC02  $250</head><br><body>Pastel sabor brownie con queso</body>]]></photo>
 	
 	<photo image="images/big/103.jpg">
-	<![CDATA[<head>Insert it in your website for free</head><br><body>without any special skills or software</body>]]></photo>
+	<![CDATA[<head>MOD:PC03  $200</head><br><body>Pastel sabor coco</body>]]></photo>
 	
 	<photo image="images/big/104.jpg">
-	<![CDATA[<head>Extensive customization options</head><body>for both Dock Menu and Gallery</body>]]></photo>
+	<![CDATA[<head>MOD:PC04  $220</head><body>Pastel de fresa</body>]]></photo>
 	
 	<photo image="images/big/105.jpg">
-	<![CDATA[<head>Make your modifications in the right panel</head><body>Then hit the "generate settings XMLs" button</body>]]></photo>
+	<![CDATA[<head>MOD:PC05  $230</head><body>Pastel sabor chocolate con frambuesas encima</body>]]></photo>
 	
 	<photo image="images/big/106.jpg">
-	<![CDATA[<head>Create your own image transitions and text effects</head><body>or select them from existing lists using transitions and text effects generators</body>]]></photo>
+	<![CDATA[<head>MOD:PC06  $210</head><body>Pastel de durazno y galaletas con un toque de canela</body>]]></photo>
 	
 	<photo image="images/big/107.jpg">
-	<![CDATA[<head>You can choose the fitting type for your images in the gallery</head><body>select from bestFit, boxFit or forceFit</body>]]></photo>
+	<![CDATA[<head>MOD:PC07  $250</head><body>Pastel sabor milkyway</body>]]></photo>
 	
 	<photo image="images/big/108.jpg">
-	<![CDATA[<head>You can put the Dock Menu on any position over the Gallery</head><body>And you can have it hidden on mouse out or have it fixed</body>]]></photo>
+	<![CDATA[<head>MOD:PC08  $210</head><body>Pastel sabor piña colada</body>]]></photo>
 	
 	<photo image="images/big/109.jpg">
-	<![CDATA[<head>Put your own images and text in the "images" folder</head><body>and update the XML files from the same folder accordingly</body>]]></photo>
+	<![CDATA[<head>MOD:PC09  $240</head><body>Pastel sabor pinguino</body>]]></photo>
 	
-	<photo image="images/big/110.jpg" url = "http://www.flashxml.net">
-	<![CDATA[<head>You can put <a href="http://www.flashxml.net" target="_blank">links</a> in this <bluetext>HTML/CSS formatted text</bluetext></head><body>and you can also put links behind the big images</body>]]></photo>
+	<photo image="images/big/110.jpg">
+	<![CDATA[<head>MOD:PC10  $250</head><body>Rosca sabor moka</body>]]></photo>
 	
 	<photo image="images/big/111.jpg">
-	<![CDATA[<head>Hello</head><body>Welcome to the new Dock Gallery</body>]]></photo>
+	<![CDATA[<head>MOD:PC11  $220</head><body>Pastel sabor chocolate y vainilla</body>]]></photo>
 	
 	<photo image="images/big/112.jpg">
-	<![CDATA[<head>Hello</head><body>Welcome to the new Dock Gallery</body>]]></photo>
+	<![CDATA[<head>MOD:PC12  $230</head><body>Pastel Selva negra</body>]]></photo>
 	
 	<photo image="images/big/113.jpg">
-	<![CDATA[<head>Hello</head><body>Welcome to the new Dock Gallery</body>]]></photo>
+	<![CDATA[<head>MOD:PC13  $220</head><body>Pastel sabor chocolate</body>]]></photo>
 	
 	<photo image="images/big/114.jpg">
-	<![CDATA[<head>Hello</head><body>Welcome to the new Dock Gallery</body>]]></photo>
+	<![CDATA[<head>MOD:PC14  $230</head><body>Pastel de 3 chocolates</body>]]></photo>
 	
 	<photo image="images/big/115.jpg">
-	<![CDATA[<head>Hello</head><body>Welcome to the new Dock Gallery</body>]]></photo>
+	<![CDATA[<head>MOD:PC15  $220</head><body>Mouse de trufade chocolate</body>]]></photo>
 	
 	<photo image="images/big/116.jpg">
-	<![CDATA[<head>Hello</head><body>Welcome to the new Dock Gallery</body>]]></photo>
+	<![CDATA[<head>MOD:PC16  $200</head><body>Pastel de chocolate con crema</body>]]></photo>
 	
 </images>
