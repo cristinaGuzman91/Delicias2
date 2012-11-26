@@ -10,229 +10,6 @@ if (!isset($_POST['send'])) {
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Registro de usuarios</title>
-<style type="text/css"> 
-<!-- 
-body  {
-	font: 100% Verdana, Arial, Helvetica, sans-serif;
-	background: #FFFFFF;
-	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
-	padding: 0;
-	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
-	color: #000000;
-}
-
-/* Tips for Elastic layouts */
-.twoColElsLtHdr #container { 
-	width: 46em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
-	background: #FFFFFF;
-	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
-	border: 1px solid #000000;
-	text-align: left; /* this overrides the text-align: center on the body element. */
-} 
-
-
-.twoColElsLtHdr #header { 
-	background: #DDDDDD; 
-	padding: 0 10px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
-} 
-.twoColElsLtHdr #header h1 {
-	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
-	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
-}
-
-/* Tips for sidebar1:*/
-.twoColElsLtHdr #sidebar1 {
-	float: left; 
-	width: 12em; /* since this element is floated, a width must be given */
-	background: #EBEBEB; /* the background color will be displayed for the length of the content in the column, but no further */
-	padding: 15px 0; /* top and bottom padding create visual space within this div */
-}
-.twoColElsLtHdr #sidebar1 h3, .twoColElsLtHdr #sidebar1 p {
-	margin-left: 10px; /* the left and right margin should be given to every element that will be placed in the side columns */
-	margin-right: 10px;
-}
-
-/* Tips for mainContent:*/
-.twoColElsLtHdr #mainContent {
-	margin: 0 1em 0 1em; /* the right margin can be given in ems or pixels. It creates the space down the right side of the page. */
-} 
-.twoColElsLtHdr #footer { 
-	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
-	background:#DDDDDD;
-} 
-.twoColElsLtHdr #footer p {
-	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
-	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
-}
-
-/* Miscellaneous classes for reuse */
-.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
-	float: right;
-	margin-left: 8px;
-}
-.fltlft { /* this class can be used to float an element left in your page */
-	float: left;
-	margin-right: 8px;
-}
-.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
-	clear:both;
-    height:0;
-    font-size: 1px;
-    line-height: 0px;
-}
-#apDiv1 {
-	position:absolute;
-	left:210px;
-	top:36px;
-	width:360px;
-	height:49px;
-	z-index:1;
-}
-#apDiv2 {
-	position:absolute;
-	left:750px;
-	top:19px;
-	width:244px;
-	height:96px;
-	z-index:2;
-}
-#apDiv3 {
-	position:absolute;
-	left:614px;
-	top:170px;
-	width:147px;
-	height:20px;
-	z-index:3;
-}
-#apDiv4 {
-	position:absolute;
-	left:613px;
-	top:29px;
-	width:179px;
-	height:23px;
-	z-index:3;
-}
---> 
-</style>
-<!--[if IE]>
-<style type="text/css"> 
-/* place css fixes for all versions of IE in this conditional comment */
-.twoColElsLtHdr #sidebar1 { padding-top: 30px; }
-.twoColElsLtHdr #mainContent { zoom: 1; padding-top: 15px; }
-/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
-</style>
-<![endif]-->
-
-<style type="text/css">
-<!--
-#apDiv5 {
-	position:absolute;
-	left:686px;
-	top:128px;
-	width:146px;
-	height:69px;
-	z-index:4;
-}
-#apDiv6 {
-	position:absolute;
-	left:730px;
-	top:337px;
-	width:94px;
-	height:53px;
-	z-index:4;
-}
-#apDiv7 {
-	position:absolute;
-	left:743px;
-	top:410px;
-	width:80px;
-	height:51px;
-	z-index:4;
-}
-#apDiv8 {
-	position:absolute;
-	left:384px;
-	top:151px;
-	width:508px;
-	height:210px;
-	z-index:4;
-}
-#apDiv9 {
-	position:absolute;
-	left:545px;
-	top:476px;
-	width:270px;
-	height:37px;
-	z-index:5;
-}
-
-#campo input {
-background:#E8E8E8;
-border: 3px double #CCCCCC;
-font-size:14px;
-height:26px;
-}
-
-#campor input {
-background:#1c3a6e;
-border: 3px double #CCCCCC;
-font-size:14px;
-height:26px;
-color:#FFFFFF;
-}
-
-#nulo input {
-background:#E8E8E8;
-border: 3px double #CCCCCC;
-font-size:14px;
-color:#666666;
-height:26px;
-}
-
-#reg input.env {
-display:block;
-width:94px;
-height:24px;
-background:url(/images/bt_register.png) no-repeat;
-border:none;
-cursor:pointer;
-float:none;
-color:#FFFFFF;
-}
-
-#sel select {
-background:#1c3a6e;
-border: 3px double #CCCCCC;
-font-size:14px;
-color:#FFFFFF;
-height:auto;
-}
-
-#text textarea {
-background:#E8E8E8;
-border: 3px double #CCCCCC;
-font-size:14px;
-color:#000000;
-height:auto;
-font-family:Calibri;
-}
-
-#text textarea:focus {
-background:#FFFFFF;
-color:#000000;
-font-family:Calibri;
-}
-
-#campo input:focus {
-background:#FFFFFF;
-}
-
-#campor input:focus {
-background:#FFFFFF;
-color:#000000;
-}
--->
-</style>
 </head>
 <script type="text/javascript">
 function No_enter (field, event) {
@@ -267,7 +44,7 @@ document.reg.login.value="Anonimo";
     <table border="0" cellpadding="5" cellspacing="0">
     <tr>
     <td align="right">Usuario<font color="red">*</font></td>
-    <td align="left" id="campor"><input type="text" name="usuario" id="campo" onKeyPress="return No_enter(this, event)" maxlength="90" size="30" /></td>
+    <td align="left" id="campor"><input type="text" name="usuario" id="campo" onekeyup="this.value=this.value.toLowerCase()" onKeyPress="return No_enter(this, event)" maxlength="90" size="30" /></td>
     </tr>     
     <tr>
     <td align="right">Clave<font color="red">*</font></td>
@@ -293,6 +70,9 @@ document.reg.login.value="Anonimo";
 	<select class="field" name="ins" id="campo">
     <option class="field" value="0">Selecciona... </option>
     <option value="administrador">ADMINISTRADOR</option>
+    <option value="analista">ANALISTA</option>
+    <option value="capturista">CAPTURISTA</option>
+    <option value="operador">OPERADOR</option>
     </select>
 	</td>
     </tr>
@@ -318,7 +98,7 @@ document.reg.login.value="Anonimo";
       </tr>
       </table>
 </form>
-<a href="login.html">Iniciar sesion</a>
+<center><a href="login.html"><img src="../Imagenes/imagenesDelicias/iniciar.png" width="100" heigth="30" onmouseover="this.src='../Imagenes/imagenesDelicias/iniciar1.png';" onmouseout="this.src='../Imagenes/imagenesDelicias/iniciar.png';"></a></center>
 </body>
 </html>
 
