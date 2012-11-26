@@ -33,7 +33,7 @@ document.reg.login.value="Anonimo";
 }
 </script>
 <body class="twoColElsLtHdr" onLoad="document.reg.elements[0].focus()" >
-<font face="Verdana" size="+1"> <sub><strong>Registro!</strong></sub> </font>
+<font face="Verdana" size="+1"> <center><sub><strong>Registro!</strong></sub></center> </font>
 <form name="reg" style="text-align:center" action="config.php" method="POST">
     <table border="0" cellpadding="5" cellspacing="0" align="center"> 
     <tr>
