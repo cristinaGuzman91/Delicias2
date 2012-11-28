@@ -45,7 +45,7 @@ position:absolute;
 top:16%; 
 left:1%;   
 width:19%;  
-height:70%;  
+height:83%;  
  overflow: hidden;
  border-radius: 8px;
  border: 3px solid #F781F3;
@@ -70,11 +70,49 @@ position:absolute;
 top:16%; 
 left:80%;
 width:19%;   
-height:70%;  
+height:83%;  
  overflow: hidden;
  border-radius: 8px;
  border: 3px solid #F781F3;
  box-shadow: 1px 0 15px #FA58F4 inset; }
+
+#pie {  
+position:absolute; 
+top:84%;  
+ background-color: #FFFFFF;
+width:99%;  
+height:15%;  
+ overflow: hidden;
+ border-radius: 8px;
+ border: 3px solid #088A08;
+ box-shadow: 1px 0 15px #31B404 inset; } 
+
+
+
+#frmmovil{
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	
+	/*border-radius: 8px;
+	border: 2px solid #000000;
+	box-shadow: 0px 0 8px #000000 inset;*/
+	background: -moz-linear-gradient(rgba(225,230,233,0.3), rgba(255,255,255,1));
+	background: -webkit-linear-gradient(rgba(255,230,233,1), rgba(255,255,255,1));
+	background: -o-linear-gradient(rgba(255,230,233,1), rgba(255,255,255,1));
+	background: -ms-linear-gradient(rgba(255,230,233,1), rgba(255,255,255,1));
+	background: linear-gradient(rgba(255,230,233,1), rgba(255,255,255,1));
+}
+
+.titulo{
+font-size: 13pt; 
+font-style: normal; 
+line-height: normal; 
+font-weight: bold; 
+color: #0B3861;  
+margin: 10px auto;
+}
+
 
  
 
