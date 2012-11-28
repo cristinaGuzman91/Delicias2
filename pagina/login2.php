@@ -27,7 +27,7 @@
 			$query = mysql_query("SELECT usuario,clave FROM usuarios WHERE usuario = '$username'") or die(mysql_error());
 			$row = mysql_fetch_array($query);
 			$_SESSION["s_usuario"] = $row['usuario'];
-			echo "Has sido logueado correctamente ".$_SESSION['s_usuario']." y puedes acceder al index.php.";
+			header("Location: ../admin.html");
 			}
 		}
 	}

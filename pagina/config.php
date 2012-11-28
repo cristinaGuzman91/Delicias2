@@ -117,12 +117,12 @@ $car = $_POST["foto"];
 // Hay campos en blanco
 if(empty($username)) {
 echo "<script>alert('Algunos de los campos estan vacios:  Usuario: ".$username." | Contrasena: ".$password." | Re-contrasena: ".$cpassword." | Institucion: ".$pef." | Cargo: ".$car."');</script>"; exit();
-header("Location: config.php");
+header("Location: 'config.php'");
 }else{
 // ¿Coinciden las contraseñas?
 if($password!=$cpassword) {
 echo "<script>alert('Las contraseñas no coinciden, verifica que estan escritas correctamente.');</script>"; exit();
-header("Location:logeado.php");
+header("Location:'config.php'");
 }else{
 // Comprobamos si el nombre de usuario o la cuenta de correo ya existían
 $checkuser = @mysql_query("SELECT usuarios FROM usuarios WHERE usuario='$username'");
@@ -130,7 +130,7 @@ $username_exist = @mysql_num_rows($checkuser);
 
 if ($username_exist>0) {
 echo "<script>alert('El usuario ya existe en nuestra base de datos');</script>"; exit();
-header("Location: config.php");
+header("Location: 'config.php'");
 }else{
 
 $password=md5(crypt($cpassword,"delicias")); 

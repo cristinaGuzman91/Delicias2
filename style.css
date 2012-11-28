@@ -1,0 +1,82 @@
+
+a:link {
+font-family: Comic Sans MS; 
+font-size: 15pt; 
+font-style: normal; 
+line-height: normal; 
+font-weight: bold; 
+color: #088A08; 
+text-decoration: none}
+
+a:visited {
+font-family: Comic Sans MS; 
+font-size: 15pt; 
+font-style: normal; 
+line-height: normal; 
+font-weight: bold; 
+color: #D358F7; 
+text-decoration: none} 
+
+a:hover {font-family: Comic Sans MS; 
+font-size: 15pt; 
+font-style: normal; 
+line-height: normal; 
+font-weight: bold; 
+color:#8000FF; 
+text-decoration: underline} 
+
+#Superior {  
+ position:absolute;  
+ top:0;
+ background-color: #F2F5A9;
+ font-size:37px;
+ left:1%; 
+ width:98%;  
+ height:15%;  
+ overflow: hidden;
+ border-radius: 8px;
+ border: 3px solid #61380B;
+ box-shadow: 1px 0 15px #3B240B inset;
+ }  
+  
+#Izquierda {  
+position:absolute;
+ background-color: #FFFFFF; 
+top:16%; 
+left:1%;   
+width:19%;  
+height:70%;  
+ overflow: hidden;
+ border-radius: 8px;
+ border: 3px solid #F781F3;
+ box-shadow: 1px 0 15px #FA58F4 inset; }  
+
+
+#Centro {  
+position:absolute; 
+top:16%;  
+ background-color: #FFFFFF;
+left:21%; 
+width:58%;  
+height:83%;  
+ overflow: hidden;
+ border-radius: 8px;
+ border: 3px solid #088A08;
+ box-shadow: 1px 0 15px #31B404 inset; } 
+  
+#Derecha {  
+position:absolute;  
+ background-color: #FFFFFF;
+top:16%; 
+left:80%;
+width:19%;   
+height:70%;  
+ overflow: hidden;
+ border-radius: 8px;
+ border: 3px solid #F781F3;
+ box-shadow: 1px 0 15px #FA58F4 inset; }
+
+ 
+
+
+
