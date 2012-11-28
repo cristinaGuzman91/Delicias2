@@ -1,7 +1,7 @@
 
 a:link {
-font-family: Comic Sans MS; 
-font-size: 15pt; 
+font-family: Century Schoolbook L; 
+font-size: 13pt; 
 font-style: normal; 
 line-height: normal; 
 font-weight: bold; 
@@ -9,16 +9,16 @@ color: #088A08;
 text-decoration: none}
 
 a:visited {
-font-family: Comic Sans MS; 
-font-size: 15pt; 
+font-family: Century Schoolbook L; 
+font-size: 13pt; 
 font-style: normal; 
 line-height: normal; 
 font-weight: bold; 
 color: #D358F7; 
 text-decoration: none} 
 
-a:hover {font-family: Comic Sans MS; 
-font-size: 15pt; 
+a:hover {font-family:Century Schoolbook L; 
+font-size: 13pt; 
 font-style: normal; 
 line-height: normal; 
 font-weight: bold; 
@@ -81,6 +81,7 @@ position:absolute;
 top:84%;  
 background: -webkit-linear-gradient(rgba(255,230,233,1), rgba(255,255,255,1));
 width:96%; 
+overflow: hidden;
 left:10px; 
 height:15%;  
  } 
