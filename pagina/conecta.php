@@ -1,6 +1,6 @@
 <?php
 	function conecta(){
-		$link = mysql_connect('localhost', 'admin', 'admin');
+		$link = mysql_connect('localhost', 'admin', 'itesm');
 			if($link){
 				echo "";
 			}
