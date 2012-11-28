@@ -18,18 +18,4 @@
 </body>	
 
 </html>
-<?php
-	
-	include('../pagina/conecta.php');
-
-	$query = "SELECT * FROM usuarios";
-
-	if (!$q->num_rows()){ 
-		header("Location:'../pagina/config.php'"); 
-}	else{
-
-		header("Location:'../pagina/login.html'");
-	}
-
-?>
 

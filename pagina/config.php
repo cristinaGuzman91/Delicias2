@@ -98,7 +98,7 @@ document.reg.login.value="Anonimo";
       </tr>
       </table>
 </form>
-<center><a href="login.html"><img src="../Imagenes/imagenesDelicias/iniciar.png" width="100" heigth="30" onmouseover="this.src='../Imagenes/imagenesDelicias/iniciar1.png';" onmouseout="this.src='../Imagenes/imagenesDelicias/iniciar.png';"></a></center>
+<center><a href="login.html"><img src="Imagenes/imagenesDelicias/iniciar.png" width="100" heigth="30" onmouseover="this.src='Imagenes/imagenesDelicias/iniciar1.png';" onmouseout="this.src='Imagenes/imagenesDelicias/iniciar.png';"></a></center>
 </body>
 </html>
 
