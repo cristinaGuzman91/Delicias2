@@ -2,7 +2,7 @@
 	// Configura los datos de tu cuenta
 	$dbhost='localhost';
 	$dbusername='admin';
-	$dbuserpass='admin';
+	$dbuserpass='itesm';
 	$dbname='proyecto';
 	
 	session_start();
@@ -19,12 +19,12 @@
 		if ($password==NULL) {
 		echo "La la contraseña no fue enviada";
 		}else{
-			$query = mysql_query("SELECT usuario,clave FROM usuarios WHERE usuario = '$username'") or die(mysql_error());
+			$query = mysql_query("SELECT usuario,clave FROM usuario WHERE usuario = '$username'") or die(mysql_error());
 			$data = mysql_fetch_array($query);
 			if($data['clave'] != $password2) {
 			echo "Login incorrecto";
 			}else{
-			$query = mysql_query("SELECT usuario,clave FROM usuarios WHERE usuario = '$username'") or die(mysql_error());
+			$query = mysql_query("SELECT usuario,clave FROM usuario WHERE usuario = '$username'") or die(mysql_error());
 			$row = mysql_fetch_array($query);
 			$_SESSION["s_usuario"] = $row['usuario'];
 			header("Location: ../admin.html");

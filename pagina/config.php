@@ -98,7 +98,7 @@ document.reg.login.value="Anonimo";
       </tr>
       </table>
 </form>
-<center><a href="login.html"><img src="../Imagenes/imagenesDelicias/iniciar.png" width="100" heigth="30" onmouseover="this.src='../Imagenes/imagenesDelicias/iniciar1.png';" onmouseout="this.src='../Imagenes/imagenesDelicias/iniciar.png';"></a></center>
+<center><a href="login.html"><img src="Imagenes/imagenesDelicias/iniciar.png" width="100" heigth="30" onmouseover="this.src='Imagenes/imagenesDelicias/iniciar1.png';" onmouseout="this.src='Imagenes/imagenesDelicias/iniciar.png';"></a></center>
 </body>
 </html>
 
@@ -125,7 +125,7 @@ echo "<script>alert('Las contraseñas no coinciden, verifica que estan escritas c
 header("Location:'config.php'");
 }else{
 // Comprobamos si el nombre de usuario o la cuenta de correo ya existían
-$checkuser = @mysql_query("SELECT usuarios FROM usuarios WHERE usuario='$username'");
+$checkuser = @mysql_query("SELECT usuario FROM usuario WHERE usuario='$username'");
 $username_exist = @mysql_num_rows($checkuser);
 
 if ($username_exist>0) {
@@ -146,7 +146,7 @@ $ip = @GetHostByAddr($ip);
 /* fecha y hora del dia */
 $fecha = date("d M Y [h:i A]");
 
-$query = "INSERT INTO usuarios (usuario, clave, nombre, correo, perfil, foto, f_acceso, ip ) VALUES('$username','$password','$nom','$email','$pef','$car','$fecha','$ip')";
+$query = "INSERT INTO usuario (usuario, clave, nombre, correo, perfil, foto, f_acceso, ip ) VALUES('$username','$password','$nom','$email','$pef','$car','$fecha','$ip')";
 @mysql_query($query) or die(@mysql_error());
 echo "<script>alert('Se ha creado correctamente');</script>"; exit();
 echo ("<script>location.href='config.php';</script>");
