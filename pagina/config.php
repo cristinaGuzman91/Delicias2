@@ -94,11 +94,11 @@ document.reg.login.value="Anonimo";
     <tr>
     <td align="center" id="reg">
       <input type="submit" name="send" id="submit"  value="Registrame! &raquo;" tabindex="10" />
-      </tr>
+      &nbsp;&nbsp;&nbsp;&nbsp; <input type="button" onClick="javascript: location.href='login.php'" name="cancelar" value="Cancelar" >
+      </td>
       </tr>
       </table>
 </form>
-<center><a href="login.html"><img src="Imagenes/imagenesDelicias/iniciar.png" width="100" heigth="30" onmouseover="this.src='Imagenes/imagenesDelicias/iniciar1.png';" onmouseout="this.src='Imagenes/imagenesDelicias/iniciar.png';"></a></center>
 </body>
 </html>
 
