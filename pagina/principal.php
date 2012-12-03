@@ -34,10 +34,53 @@ if ( ! ($_SESSION['autenticado'] == 'SI' && isset($_SESSION['uid'])) )
 //Cerrrar conexion a la BD
 mysql_close($conexio);
 ?>
-<html xmlns="http://www.w3.org/1999/xhtml">  
+<html xmlns="http://www.w3.org/1999/xhtml">
+<title>.:: Panel de Control Administrador ::.</title>  
 <head>
- <title>.:: Panel de Control Administrador ::.</title>
- <body>
-    <meta http-equiv="refresh" content="0;URL=../admin.html"> 
+	<link  rel="stylesheet" type="text/css" href="style.css">
+</head>  
+<body>  
+
+<div id="Superior">  
+	<ul><center>Panel de control del Administrador</center></ul>  
+</div>  
+  
+<div id="Izquierda"> 
+	<ul>
+		<a href="principal.php">Inicio</a></br>
+	</ul>
+	<ul>
+		<a href="" target="con2">Usuarios</a></br>
+	</ul>
+	<ul>
+		<a href=""target="con2">Registros</a></br>
+	</ul>
+	<ul>
+		<a href="../pagina/gen-noticia.php" target="con2">Noticias</a></br>
+	</ul>
+	<ul>
+		<a href= "../productos.html" target="con2" >Productos</a></br>
+	</ul>
+	<ul>
+		<a href=""target="con2">Historial</a></br>
+	</ul>
+	<ul>
+		<a href="" target="con2con2">Ip</a></br>
+	</ul>
+	<ul>
+		<a href=""target="">Informacion</a></br>
+	</ul> 
+	<ul>
+		<a href="../index.html">Delicias</a></br>
+	</ul> 
+</div>
+
+<iframe id="Centro" name="con2" > </iframe>  
+  
+<div id="Derecha">  
+ 	 <div id="pie"> 
+  	<center><a href="cerrarSesion.php"><img src="../Imagenes/apagar.png"   	  	 WIDTH=40% HEIGHT=90%/></a></center>
+</div> 
+</div>  
 </body>  
 </html>

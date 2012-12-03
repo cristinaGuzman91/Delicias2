@@ -185,7 +185,7 @@ position:fixed;
 <? 
 //include('login2.php');
 	session_start();
-	 if (!isset($_SESSION['s_usuario'])) { echo '<script type="text/javascript">';  
+	 if (!isset($_SESSION['autenticado'])) { echo '<script type="text/javascript">';  
 	echo "window.addEvent('domready', function() { Sexy = new SexyAlertBox(); Sexy.error('<h1>binarytech MX</h1><em>Delicias</em><p>Lo sentimos no tienes ACCESO para crear Noticias.</p> <p>Favor de ACCESAR al Portal para generar Nuevas noticias. (RSS) <br>Gracias!</p>', { onComplete: function(returnvalue){ location.href='../config.php'; } , textBoxBtnOk: 'Regresar' }); });";  echo '</script>'; exit(); } else {
 ?>
 
